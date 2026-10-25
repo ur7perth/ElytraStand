@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "elytrastand",
+  "version": "${version}",
+  "name": "ElytraStand",
+  "description": "Standing-style visual pose while gliding with an elytra.",
+  "environment": "abo9kr",
+  "entrypoints": {
+    "client": [
+      "com.elytrastand.ElytraStandClient"
+    ]
+  },
+  "mixins": [
+    "elytrastand.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
