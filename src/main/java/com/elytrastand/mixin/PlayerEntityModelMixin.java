@@ -20,7 +20,7 @@ public abstract class PlayerEntityModelMixin {
             float headPitch,
             CallbackInfo ci
     ) {
-        if (!player.isGliding()) {
+        if (!player.isFallFlying()) {
             return;
         }
 
