@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "ElytraStand",
   "description": "Standing-style visual pose while gliding with an elytra.",
-  "environment": "abo9kr",
+  "environment": "client",
   "entrypoints": {
     "client": [
       "com.elytrastand.ElytraStandClient"
